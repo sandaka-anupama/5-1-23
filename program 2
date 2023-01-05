@@ -1,0 +1,11 @@
+n=int(input())#6
+l=list(map(int,input().split()))
+m=[]
+for i in l:
+    if i%2==1:
+        m.append(i)
+print(m)
+output:
+6
+4 8 9 10 11 12
+[9,11]
